@@ -109,7 +109,8 @@ if __name__ == '__main__':
     manager = mp.Manager()
     queue = manager.Queue()
     for repo in repo_folders:
-        queue.put(repo)
+       if (repo == "django__django-18435"):
+            queue.put(repo)
 
     start_time = time.time()
 

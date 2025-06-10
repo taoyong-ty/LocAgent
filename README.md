@@ -25,6 +25,8 @@ By parsing codebases into directed heterogeneous graphs, LocAgent creates a ligh
    conda create -n locagent python=3.12
    conda activate locagent
    pip install -r requirements.txt
+
+   pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
    ```
 
 ## 🚀 Launch LocAgent
